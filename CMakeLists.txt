@@ -52,7 +52,8 @@ ENDIF()
 ADD_LIBRARY(TrackPerf SHARED
   ./src/EfficiencyHists.cxx
   ./src/TrackPerfHistProc.cxx
-  ./src/TrackHists.cxx
+  ./src/SeedPerfHistProc.cxx
+  ./src/TrackHists.cxx	
   ./src/TruthHists.cxx
   ./src/FilterTracks.cxx
   ./src/ResoHists.cxx
